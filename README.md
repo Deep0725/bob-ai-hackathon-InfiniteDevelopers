@@ -23,21 +23,41 @@ Pharmaceutical safety teams need to analyze large volumes of adverse-event and d
 
 ---
 
-## 💡 Solution
+## ✨ Key Features
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+* **Drug Safety Data Processing:** Accepts and processes drug safety data for structured analysis.
 
-We built a drug safety analysis system that processes safety data, detects potential safety signals using statistical analysis such as the Proportional Reporting Ratio (PRR), and provides a regulatory submission readiness assessment. The solution brings these capabilities together in a single workflow to help safety teams identify important findings and prepare them for further regulatory review.
+* **Automated Safety Signal Detection:** Identifies potential drug–adverse event safety signals from the available safety data.
+
+* **Statistical Signal Analysis:** Uses statistical measures such as **Proportional Reporting Ratio (PRR)** and **Pearson Chi-Square** to identify disproportionate reporting patterns.
+
+* **Signal Prioritization:** Classifies detected signals based on severity, reporting patterns, and statistical results to help safety teams focus on important findings.
+
+* **AI-Assisted Safety Assessment:** Uses **Groq AI** to provide an additional interpretation of detected safety signals and highlight potentially important findings for expert review.
+
+* **Interactive Signal Dashboard:** Presents detected signals, statistical results, severity information, trends, and AI-generated assessments in a unified dashboard.
+
+* **Regulatory Submission Readiness:** Evaluates the available regulatory information and identifies potential gaps that may need to be addressed before submission.
+
+* **AI-Assisted Regulatory Assessment:** Uses AI to interpret the readiness analysis and provide additional insights into critical, high, medium, and low-priority regulatory gaps.
+
+* **Expert Review Support:** Combines deterministic statistical analysis with AI-generated insights while keeping the final decision with qualified safety and regulatory experts.
 
 ---
 
-## ✨ Key Features
+## 💡 Solution
 
--Drug Safety Data Processing: Accepts and processes safety-related data for analysis.
--Safety Signal Detection: Automatically identifies potential drug-event safety signals.
--PRR Analysis: Uses Proportional Reporting Ratio analysis to help identify disproportionate reporting patterns.
--Signal Results Dashboard: Presents detected signals and relevant analysis results in an easy-to-understand interface.
--Regulatory Readiness Assessment: Evaluates available information to provide an assessment of submission readiness.
+PharmaGuard provides a unified workflow for **drug safety signal detection and regulatory submission readiness assessment**.
+
+The system first processes safety data and applies statistical methods such as **PRR and Pearson Chi-Square** to identify potential drug–adverse event signals. Detected signals are then prioritized and presented through an interactive dashboard.
+
+The platform additionally uses **Groq AI** to interpret the statistical findings and provide AI-assisted insights that can help safety teams understand potentially important signals more efficiently.
+
+For regulatory preparation, PharmaGuard evaluates the available submission information against predefined readiness requirements, identifies missing or incomplete areas, and categorizes regulatory gaps according to their priority. AI-assisted analysis provides an additional interpretation of these gaps.
+
+By combining **statistical signal detection, regulatory readiness analysis, and AI-assisted interpretation in one workflow**, PharmaGuard helps safety teams move from raw safety data to actionable findings and better-prepared regulatory review.
+
+> **Note:** AI-generated assessments are intended to support expert review and do not replace qualified pharmacovigilance or regulatory judgment.
 
 ---
 
