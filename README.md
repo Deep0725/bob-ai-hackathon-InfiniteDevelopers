@@ -10,7 +10,7 @@
 |---|---|
 | **Team Name** | InfiniteDevelopers |
 | **Track** | AI
-| **Team Lead** | Mali Preet —  |
+| **Team Lead** | Mali Preet — malipreet.3212@gmail.com  |
 | **Members** | Deep Lalwani,Mann Mahant, Hoshil Chovatiya |
 
 ---
