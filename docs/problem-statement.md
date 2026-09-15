@@ -2,20 +2,56 @@
 
 ## Background
 
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+Pharmacovigilance is the process of monitoring the safety of medicines after they reach patients. Pharmaceutical companies and regulatory agencies receive large volumes of adverse event reports that must be analyzed to identify potential safety concerns associated with drugs.
+
+As the number of reports increases, manually reviewing and prioritizing safety signals becomes difficult and time-consuming.
+
+---
 
 ## The Problem
 
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
+Drug safety teams often need to analyze thousands of adverse event reports to identify potential drug-event associations. Manual review requires significant effort and may delay the identification of important safety signals.
+
+In addition, preparing evidence for regulatory review requires organizing and evaluating available information, which adds another layer of complexity.
+
+---
 
 ## Who is Affected
 
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
+This problem affects:
+
+* Pharmacovigilance professionals
+* Drug safety analysts
+* Regulatory affairs teams
+* Pharmaceutical organizations
+* Healthcare research groups
+
+These users need efficient tools to review safety information and identify potential risks.
+
+---
 
 ## Why It Matters
 
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+Delayed identification of safety signals can impact patient safety and increase the time required for regulatory assessment.
+
+Efficient analysis can help:
+
+* Reduce manual effort
+* Improve consistency in signal review
+* Support faster regulatory preparation
+* Help prioritize potential risks
+
+---
 
 ## Why Existing Solutions Fall Short
 
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+Many current workflows involve spreadsheets, manual calculations, and multiple disconnected systems.
+
+These approaches:
+
+* Require repetitive manual work
+* Are difficult to scale
+* Make signal prioritization challenging
+* Do not always provide a unified workflow from analysis to readiness assessment
+
+Our project addresses this by combining safety signal analysis and regulatory readiness assessment into a single interface.
