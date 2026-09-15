@@ -108,10 +108,10 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
--The current implementation is a hackathon proof of concept and is not intended to replace review by qualified pharmacovigilance or regulatory professionals.
--Regulatory requirements can vary by jurisdiction, product, and submission type; the current readiness assessment does not represent a formal regulatory determination.
--The system may not cover every real-world pharmacovigilance workflow or data source.
--Further validation with larger and more diverse real-world safety datasets would be required before production deployment.
+The current implementation is a hackathon proof of concept and is not intended to replace review by qualified pharmacovigilance or regulatory professionals.
+Regulatory requirements can vary by jurisdiction, product, and submission type; the current readiness assessment does not represent a formal regulatory determination.
+The system may not cover every real-world pharmacovigilance workflow or data source.
+Further validation with larger and more diverse real-world safety datasets would be required before production deployment.
 ---
 
 ## 🏅 What We're Most Proud Of
