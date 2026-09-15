@@ -41,8 +41,13 @@ submission:
   - "Signal results and risk prioritization dashboard" 
   - "Regulatory submission readiness assessment"                        # optional 5th
 
-  tech_stack:
- languages: ["JavaScript", "HTML", "CSS"] 
+ tech_stack:
+    languages: ["JavaScript", "HTML", "CSS"] 
+    frameworks: [] 
+    ibm_technologies: ["IBM Bob"]
+    databases: []
+    other: ["Docker", "GitHub Actions", "Slack API"]
+
  frameworks: [] 
  ibm_technologies: ["IBM Bob"]
  databases: []
