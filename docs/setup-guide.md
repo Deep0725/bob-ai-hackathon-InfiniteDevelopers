@@ -1,79 +1,80 @@
 # Setup Guide
 
-> **This file is read by the automated evaluation pipeline. Be precise and complete.**
-
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Install:
 
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+* Modern web browser (Chrome, Edge, Firefox)
+* Git (optional)
+
+---
 
 ## Environment Variables
 
-Copy `.env.example` to `.env` and fill in the values:
+This prototype currently does not require environment variables.
+
+If needed in future:
 
 ```bash
 cp .env.example .env
 ```
 
-| Variable | Description | Required |
-|---|---|---|
-| `WATSONX_API_KEY` | Your IBM watsonx.ai API key | Yes |
-| `WATSONX_PROJECT_ID` | Your watsonx.ai project ID | Yes |
-| `DATABASE_URL` | PostgreSQL connection string | Yes |
-| `SLACK_WEBHOOK_URL` | Slack webhook for alerts | No |
+---
 
 ## Installation
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/[your-org]/[your-repo].git
-cd [your-repo]
+# Clone repository
+git clone https://github.com/Deep0725/bob-ai-hackathon-InfiniteDevelopers.git
 
-# 2. Install backend dependencies
-[your command — e.g.: pip install -r requirements.txt]
-
-# 3. Install frontend dependencies (if applicable)
-[your command — e.g.: cd frontend && npm install]
-
-# 4. Set up the database (if applicable)
-[your command — e.g.: python manage.py migrate]
+# Enter project directory
+cd bob-ai-hackathon-InfiniteDevelopers
 ```
+
+---
 
 ## Running the Application
 
-```bash
-# Start the backend
-[your command — e.g.: uvicorn app.main:app --reload]
+Navigate to:
 
-# Start the frontend (in a separate terminal, if applicable)
-[your command — e.g.: cd frontend && npm run dev]
+```text
+src/
 ```
 
-The application will be available at: `http://localhost:[PORT]`
+Open:
 
-## Running Tests
-
-```bash
-[your test command — e.g.: pytest tests/ -v]
+```text
+index.html
 ```
 
-## Quick Demo (Optional)
+in a browser.
 
-If you have a demo script or sample data to showcase the project quickly:
+Alternatively:
 
-```bash
-[e.g.: python demo/seed_demo_data.py]
-[e.g.: open http://localhost:8000/demo]
-```
+Use VS Code Live Server.
+
+---
+
+## Verification
+
+The application should:
+
+* Open successfully
+* Display the dashboard
+* Accept user input
+* Perform PRR calculations
+* Show results
+
+---
 
 ## Troubleshooting
 
-| Issue | Solution |
-|---|---|
-| [e.g., `ModuleNotFoundError`] | [e.g., Run `pip install -r requirements.txt` again] |
-| [e.g., Database connection refused] | [e.g., Ensure PostgreSQL is running: `docker compose up db`] |
-| [e.g., watsonx.ai 401 error] | [e.g., Check `WATSONX_API_KEY` in your `.env` file] |
+| Issue               | Solution                 |
+| ------------------- | ------------------------ |
+| Page not loading    | Check file paths         |
+| JavaScript errors   | Open browser console     |
+| Missing styles      | Verify CSS file location |
+| Data not processing | Check input format       |
+
+```
+```
