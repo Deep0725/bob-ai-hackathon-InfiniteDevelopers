@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Drug Safety Signal Detector & Regulatory Submission Readiness Checker
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,9 +8,9 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
+| **Team Name** | InfiniteDevelopers |
+| **Track** | AI
+| **Team Lead** | Mali Preet — [email@ibm.com] |
 | **Members** | [Name 1], [Name 2], [Name 3] |
 
 ---
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Pharmaceutical safety teams need to analyze large volumes of adverse-event and drug safety data to identify potential safety signals and determine whether the available evidence is ready for regulatory review. Manual analysis can be time-consuming and makes it difficult to consistently identify, prioritize, and document potential safety concerns.
 
 ---
 
@@ -27,17 +27,17 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+We built a drug safety analysis system that processes safety data, detects potential safety signals using statistical analysis such as the Proportional Reporting Ratio (PRR), and provides a regulatory submission readiness assessment. The solution brings these capabilities together in a single workflow to help safety teams identify important findings and prepare them for further regulatory review.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+-Drug Safety Data Processing: Accepts and processes safety-related data for analysis.
+-Safety Signal Detection: Automatically identifies potential drug-event safety signals.
+-PRR Analysis: Uses Proportional Reporting Ratio analysis to help identify disproportionate reporting patterns.
+-Signal Results Dashboard: Presents detected signals and relevant analysis results in an easy-to-understand interface.
+-Regulatory Readiness Assessment: Evaluates available information to provide an assessment of submission readiness.
 
 ---
 
@@ -45,11 +45,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | HTML, CSS, JavaScript |
+| **Frameworks** | None |
+| **IBM Technologies** | IBM Bob |
+| **Databases** | None |
+| **Other** | GitHub, GitHub Actions |
 
 ---
 
