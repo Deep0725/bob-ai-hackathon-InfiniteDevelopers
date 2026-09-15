@@ -2,40 +2,51 @@
 
 ## What We Built
 
-[Describe your solution in plain language. Avoid jargon — write as if explaining to a smart colleague unfamiliar with your tech stack.]
+We built a drug safety analysis application that helps users process safety-related data, identify potential safety signals using statistical methods such as Proportional Reporting Ratio (PRR), and assess regulatory submission readiness.
+
+The application combines multiple analysis steps into a single workflow.
+
+---
 
 ## How It Works
 
-[Explain the core mechanism step by step. A numbered list or simple flow works well here.]
+1. The user provides drug safety or adverse event data.
+2. The application processes the input data.
+3. PRR-based calculations are performed to identify potential safety signals.
+4. Results are displayed through a dashboard interface.
+5. The system provides a regulatory readiness assessment based on available information.
 
-1. [Step 1: e.g., "User connects their GitHub repository via OAuth"]
-2. [Step 2: e.g., "The system ingests pipeline logs and feeds them to watsonx.ai"]
-3. [Step 3: e.g., "An anomaly score is computed and displayed on the dashboard"]
-4. [Step 4: e.g., "Alerts are sent to Slack when the score exceeds a threshold"]
+---
 
 ## Architecture Diagram
 
-> See [`architecture.md`](architecture.md) for the detailed diagram.
-
-[Optionally include a simple ASCII or Mermaid diagram here for quick reference.]
-
+```text
+User
+   ↓
+Web Interface
+   ↓
+Data Processing
+   ↓
+PRR Signal Detection
+   ↓
+Results Dashboard
+   ↓
+Regulatory Readiness Assessment
 ```
-[User] → [Frontend: React] → [API: FastAPI] → [watsonx.ai] → [Dashboard]
-                                    ↓
-                             [PostgreSQL DB]
-```
+
+---
 
 ## Key Design Decisions
 
-| Decision | Rationale |
-|---|---|
-| [e.g., Used watsonx.ai for anomaly detection] | [e.g., Pre-trained models reduced time-to-value vs. building from scratch] |
-| [Decision 2] | [Rationale 2] |
-| [Decision 3] | [Rationale 3] |
+| Decision                                          | Rationale                             |
+| ------------------------------------------------- | ------------------------------------- |
+| Use a web interface                               | Easy accessibility                    |
+| Use PRR analysis                                  | Widely used signal detection approach |
+| Combine signal detection and readiness assessment | Provides a unified workflow           |
+| Keep architecture lightweight                     | Suitable for hackathon implementation |
+
+---
 
 ## IBM Technologies Used
 
-[Explain specifically HOW you used each IBM technology — not just that you used it.]
-
-- **[IBM Tech 1, e.g., watsonx.ai]:** [How it was used — e.g., "Used the `ibm/granite-13b-instruct-v2` model via the Python SDK to classify anomaly types from log text."]
-- **[IBM Tech 2]:** [How it was used]
+* **IBM Bob:** Used as the development environment and coding assistant for building the prototype.
