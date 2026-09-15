@@ -108,14 +108,14 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
-
+-The current implementation is a hackathon proof of concept and is not intended to replace review by qualified pharmacovigilance or regulatory professionals.
+-Regulatory requirements can vary by jurisdiction, product, and submission type; the current readiness assessment does not represent a formal regulatory determination.
+-The system may not cover every real-world pharmacovigilance workflow or data source.
+-Further validation with larger and more diverse real-world safety datasets would be required before production deployment.
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+We are most proud of bringing potential safety signal detection and regulatory submission readiness assessment together into a single workflow. The project demonstrates how an AI-assisted application can help transform safety data into structured findings that can support pharmacovigilance teams during analysis and regulatory preparation.
 
 ---
