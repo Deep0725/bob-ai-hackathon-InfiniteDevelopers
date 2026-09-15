@@ -2,48 +2,56 @@
 
 ## System Architecture
 
-[Describe the overall architecture of your system. Replace the Mermaid diagram below with your actual architecture.]
-
 ```mermaid
 graph TD
-    A[User / Browser] -->|HTTP| B[Frontend - React]
-    B -->|REST API| C[Backend - FastAPI]
-    C -->|SDK| D[watsonx.ai]
-    C -->|Query| E[PostgreSQL]
-    C -->|Publish| F[Slack Webhook]
-    D -->|Inference Result| C
+    A[User / Browser] --> B[HTML/CSS/JavaScript Interface]
+    B --> C[Safety Data Processing]
+    C --> D[PRR Signal Detection Engine]
+    D --> E[Results Dashboard]
+    E --> F[Regulatory Readiness Assessment]
 ```
+
+---
 
 ## Components
 
-| Component | Technology | Responsibility |
-|---|---|---|
-| Frontend | [e.g., React 18] | [e.g., Dashboard UI, user interaction] |
-| Backend API | [e.g., FastAPI] | [e.g., Business logic, orchestration] |
-| AI / ML | [e.g., watsonx.ai] | [e.g., Anomaly scoring, classification] |
-| Database | [e.g., PostgreSQL] | [e.g., Storing pipeline events and scores] |
-| Notifications | [e.g., Slack API] | [e.g., Alerting on threshold breaches] |
+| Component         | Technology            | Responsibility                 |
+| ----------------- | --------------------- | ------------------------------ |
+| Frontend          | HTML, CSS, JavaScript | User interface and interaction |
+| Processing Module | JavaScript            | Data processing                |
+| Signal Detection  | JavaScript            | PRR calculations               |
+| Dashboard         | JavaScript            | Display results                |
+| IBM Bob           | IBM Bob               | Development assistance         |
+
+---
 
 ## Data Flow
 
-[Describe how data moves through your system from input to output.]
+1. User enters or uploads safety-related information.
+2. Data is processed by the application.
+3. PRR calculations are performed.
+4. Potential safety signals are identified.
+5. Results are shown on the dashboard.
+6. Regulatory readiness information is generated.
 
-1. [e.g., Pipeline logs are ingested via a webhook from GitHub Actions]
-2. [e.g., Logs are preprocessed and chunked into 512-token segments]
-3. [e.g., Each chunk is sent to the watsonx.ai inference endpoint]
-4. [e.g., Anomaly scores are stored in PostgreSQL]
-5. [e.g., The React dashboard polls the API every 30 seconds to refresh]
+---
 
 ## Security Considerations
 
-[Note any security decisions relevant to the architecture — even if basic.]
+* No sensitive credentials are stored in source code.
+* Environment variables should be stored in `.env`.
+* `.env` files are excluded using `.gitignore`.
 
-- [e.g., API keys stored in environment variables, never committed to git]
-- [e.g., All API routes require a Bearer token]
-- [e.g., Database credentials rotated via IBM Secrets Manager]
+---
 
 ## Scalability Notes
 
-[Optional: how would this scale beyond the hackathon prototype?]
+Future versions could include:
 
-[e.g., "The FastAPI backend is stateless and could be horizontally scaled behind a load balancer. The watsonx.ai calls are the bottleneck and would benefit from request batching."]
+* Real-world pharmacovigilance databases
+* AI-assisted signal analysis
+* Cloud deployment
+* Integration with external regulatory systems
+
+```
+```
